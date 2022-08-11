@@ -1,0 +1,20 @@
+{
+  "id": 4,
+  "attributes": {
+    "title": "A minha alma sente paz no Senhor",
+    "number": "434",
+    "speed": "72",
+    "firstnote": "g",
+    "lyricid": "ccblyric-3",
+    "firstverse": "A minha alma sente paz no Senhor,\nPaz eternal, paz sem igual;\nPor essa paz irei ao reino de amor,\nReino celestial.",
+    "secoundverse": "Meu coração já sente o grande amor\nQue vem dos céus, que vem dos céus;\nEternamente eu serei do Senhor,\nGrande amor de Deus.",
+    "thirdverse": "Por Seu amor Jesus tornou-me feliz,\nMuito feliz, muito feliz.\nIrei com Ele ao eterno país,\nCelestial país.",
+    "fourthverse": null,
+    "chorus": null,
+    "final": null,
+    "author": "George Wills Cooke",
+    "createdAt": "2022-07-29T13:25:03.387Z",
+    "updatedAt": "2022-08-01T14:43:53.176Z",
+    "publishedAt": "2022-07-29T13:25:04.463Z"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": 21,
+  "attributes": {
+    "title": "Vamos, queridos, escolher a boa parte",
+    "number": "450",
+    "speed": "75",
+    "firstnote": "eb",
+    "lyricid": "ccblyric-19",
+    "firstverse": "Vamos, queridos, escolher\nA boa parte para nós,\nSempre ouvindo, com prazer,\nDe Jesus Cristo, a doce voz.",
+    "secoundverse": "Não há no mundo nada igual\nAo regozijo de estar\nAos pés do Mestre divinal,\nA Quem devemos sempre amar.",
+    "thirdverse": "A boa parte que nos dá\nCristo Jesus, o Redentor,\nNada, de nós a tomará,\nSe a guardarmos com amor.",
+    "fourthverse": null,
+    "chorus": "Grande bem, sem igual,\nÉ estar diante do Senhor\nSua voz divinal\nNos ensina com sublime amor.",
+    "final": null,
+    "author": "William Augustine Ogden",
+    "createdAt": "2022-08-01T15:01:39.000Z",
+    "updatedAt": "2022-08-01T15:01:40.030Z",
+    "publishedAt": "2022-08-01T15:01:40.025Z"
+  }
+}

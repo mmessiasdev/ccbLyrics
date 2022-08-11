@@ -1,0 +1,20 @@
+{
+	"id": 29,
+	"attributes": {
+		"title": "Cristo me ama",
+		"number": "458",
+		"speed": "66",
+		"firstnote": "eb",
+		"lyricid": "ccblyric-27",
+		"firstverse": "Sou amado por Jesus,\nA palavra assim me diz;\nEle é a minha Luz\nE me leva ao Seu país.",
+		"secoundverse": "Sou amado por Jesus,\nPois por mim na cruz morreu;\nEle agora me conduz\nPara o lar que prometeu.",
+		"thirdverse": "Sou amado por Jesus,\nPois comigo sempre está;\nSeu conselho em mim produz\nForça que me susterá.",
+		"fourthverse": null,
+		"chorus": "Cristo me ama,\nSei que me ama,\nMuito me ama,\nEm Cristo sou feliz.",
+		"final": null,
+		"author": "William Batchelder Bradbury",
+		"createdAt": "2022-08-01T18:13:09.077Z",
+		"updatedAt": "2022-08-01T18:13:10.189Z",
+		"publishedAt": "2022-08-01T18:13:10.186Z"
+	}
+}

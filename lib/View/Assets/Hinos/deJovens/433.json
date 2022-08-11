@@ -1,0 +1,23 @@
+{
+    "data": [
+    {
+      "id": 3,
+      "attributes": {
+        "title": "Na santa escola",
+        "number": "433",
+        "speed": "74",
+        "firstnote": "f",
+        "lyricid": "ccblyric-2",
+        "firstverse": "Estamos, ó meninos, na escola do Senhor;\nCantemos santos hinos a Deus, o Criador.\nNa santa escola do Mestre eterno há bem superno.",
+        "secoundverse": "Jesus, o nosso Mestre, ensina com amor\nA eterna lei celeste, que leva ao Criador.\nNa santa escola o Mestre amado e adorado.",
+        "thirdverse": "O santo Evangelho, viemos aprender;\nDe Cristo o conselho queremos atender.\nNa santa escola o Mestre ensina a sã Doutrina.",
+        "fourthverse": "O jovens e meninos, devemos conservar\nOs divinais ensinos e neles caminhar.\nNa santa escola o Mestre ouvimos e O servimos.",
+        "chorus": null,
+        "final": null,
+        "author": "Lowell Mason",
+        "createdAt": "2022-07-29T13:23:35.794Z",
+        "updatedAt": "2022-08-01T14:43:31.347Z",
+        "publishedAt": "2022-07-29T13:23:37.397Z"
+      }
+    }
+]}

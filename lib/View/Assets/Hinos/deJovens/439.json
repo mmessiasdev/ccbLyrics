@@ -1,0 +1,20 @@
+{
+  "id": 9,
+  "attributes": {
+    "title": "Somos jovens",
+    "number": "439",
+    "speed": "79",
+    "firstnote": "d",
+    "lyricid": "ccblyric-8",
+    "firstverse": "Somos jovens, mas devemos sempre andar\nNo temor do Criador,\nO Modelo santo vamos imitar:\nJesus Cristo, Salvador.",
+    "secoundverse": "Cristo é a Luz divina para nós,\nVemos n’Ele a perfeição;\nOuviremos, sempre atentos, Sua voz,\nQue consola o coração.",
+    "thirdverse": "Se seguirmos sempre firmes ao Senhor,\nCom sincero coração,\nEle nos dará no reino de esplendor,\nO glorioso galardão.",
+    "fourthverse": null,
+    "chorus": "Em amor, com vigor,\nNos, jovens, vamos caminhar!\nMostrando a luz do Salvador\nE honrando ao Criador.",
+    "final": null,
+    "author": "James McGranahan",
+    "createdAt": "2022-07-29T13:39:20.788Z",
+    "updatedAt": "2022-08-01T14:44:56.593Z",
+    "publishedAt": "2022-07-29T13:39:21.712Z"
+  }
+}
