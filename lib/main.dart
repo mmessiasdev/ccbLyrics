@@ -1,4 +1,3 @@
-import 'package:ccblyricsflutter/View/Screens/LyricScreen.dart';
 import 'package:flutter/material.dart';
 import 'View/Screens/HomePage.dart';
 import 'package:http/http.dart' as http;

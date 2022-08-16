@@ -1,6 +1,6 @@
-import 'package:ccblyricsflutter/View/Assets/Hinos/Lyrics.dart';
+import 'package:ccblyricsflutter/Controller/Lyrics.dart';
+import 'package:ccblyricsflutter/View/Componnets/lyricpage.dart';
 import 'package:ccblyricsflutter/View/Componnets/texts.dart';
-import 'package:ccblyricsflutter/View/Screens/LyricScreen.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -22,18 +22,19 @@ class _InputState extends State<Input> {
   String ccb = 'ccb';
 
   void Lyric() {
-    String number;
+    // String number;
 
     setState(() {
-      number = ccb + valor.toString();
+      final number = valor.toString();
+      // number = valor.toString();
       Navigator.push(
         context,
         MaterialPageRoute(
-          builder: (context) => LyricScreen(number: ccb + valor.toString()),
+          builder: (context) => LyricPage(number: ccb445),
         ),
       );
       lyricNumber.clear();
-      print(ccb + valor);
+      print(valor.toString());
     });
   }
 
@@ -48,13 +49,17 @@ class _InputState extends State<Input> {
     return Column(
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
-        SecoundText(text: lyricNumber.text),
+        SecoundText(
+          text: lyricNumber.text,
+          sizedText: 20,
+          alignText: Alignment.centerLeft,
+        ),
         SizedBox(
           child: Container(
             width: 120,
             decoration: BoxDecoration(
               color: Color.fromARGB(255, 51, 51, 51),
-              borderRadius: BorderRadius.circular(5),
+              borderRadius: BorderRadius.circular(10),
             ),
             child: Padding(
               padding: const EdgeInsets.symmetric(horizontal: 5, vertical: 0),
@@ -64,12 +69,8 @@ class _InputState extends State<Input> {
                   print("TextField: $text");
                 },
                 controller: lyricNumber,
-                textInputAction: TextInputAction.search,
                 textAlign: TextAlign.center,
-                textAlignVertical: TextAlignVertical.bottom,
                 showCursor: false,
-                maxLength: 3,
-                maxLengthEnforcement: MaxLengthEnforcement.none,
                 style: TextStyle(
                   color: Colors.white,
                   fontSize: 50,
@@ -78,15 +79,18 @@ class _InputState extends State<Input> {
                 autofocus: true,
                 decoration: InputDecoration(
                   border: InputBorder.none,
-                  suffixIcon:
-                      IconButton(onPressed: Lyric, icon: Icon(Icons.search)),
+                  suffixIcon: IconButton(
+                      onPressed: Lyric,
+                      icon: Icon(
+                        Icons.search,
+                        color: Colors.white,
+                      )),
                 ),
                 keyboardType: TextInputType.numberWithOptions(),
               ),
             ),
           ),
         ),
-        MaterialButton(onPressed: () {}),
       ],
     );
   }
