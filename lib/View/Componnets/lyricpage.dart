@@ -3,30 +3,31 @@ import 'dart:convert';
 import 'package:audioplayers/audioplayers.dart';
 import 'package:ccblyricsflutter/Controller/Lyrics.dart';
 import 'package:ccblyricsflutter/View/Componnets/texts.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
-import 'package:flutter/src/foundation/key.dart';
-import 'package:flutter/src/widgets/framework.dart';
 
 import '../../Model/LyricsModel.dart';
 
 class LyricPage extends StatefulWidget {
-  LyricPage({Key? key, required String number}) : super(key: key);
-  late String number;
+  LyricPage({Key? key, required this.number}) : super(key: key);
+  final String number;
 
   @override
   State<LyricPage> createState() => _LyricPageState();
 }
 
 class _LyricPageState extends State<LyricPage> {
+  @override
   Future<List<LyricsModel>> getLyricsData() async {
-    return await Future.delayed(const Duration(seconds: 1), () {
-      List<dynamic> data = jsonDecode(ccb441);
-      List<LyricsModel> lyrics =
-          data.map((data) => LyricsModel.fromMap(data['attributes'])).toList();
-      return lyrics;
-    });
+    return await Future.delayed(
+      const Duration(seconds: 1),
+      () {
+        List<dynamic> data = jsonDecode(ccb447);
+        List<LyricsModel> lyrics = data
+            .map((data) => LyricsModel.fromMap(data['attributes']))
+            .toList();
+        return lyrics;
+      },
+    );
   }
 
   double defSized = 18;
@@ -138,7 +139,7 @@ class _LyricPageState extends State<LyricPage> {
                                     );
                                   }
                                   return ChorusVerse(
-                                    text: 'Final: ${lyricsData.chorusFinal}',
+                                    text: '${lyricsData.chorusFinal}',
                                     sizedText: defSized,
                                     alignText: Alignment.centerLeft,
                                   );
@@ -191,7 +192,16 @@ class _LyricPageState extends State<LyricPage> {
                     },
                   );
                 }
-                return const Text('Nada encontrado');
+                return Expanded(
+                    child: Center(
+                        child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: const [
+                    CircularProgressIndicator(color: Colors.black),
+                    SizedBox(height: 20),
+                    Text('Procurando Hino...'),
+                  ],
+                )));
               },
             ),
           ),
@@ -239,7 +249,7 @@ class _LyricPageState extends State<LyricPage> {
                 ],
               ),
             ],
-          ),
+          )
         ],
       ),
     );
